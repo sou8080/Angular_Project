@@ -1,0 +1,107 @@
+.alert-success {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: rgb(6, 165, 46);
+    color: white;
+    font-size: 14px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6c4e97;
+    border-color: #6c4e97;
+    font-size: 11px;
+    width: 100%;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.btn-primary:hover
+{
+    background-color: #381469;
+    border-color: #381469;
+}
+
+.box-shadow {
+    box-shadow: 1px 1px 5px #88888854;
+}
+.container {
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 1.25rem;
+    min-height: 1px;
+    display: block;
+}
+
+.content-group[_ngcontent-xex-c2] {
+    margin-bottom: 20px!important;
+    margin-top: 20px!important;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    min-height: 1px;
+    height: 304.64px;
+    width: 317.78px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+   
+}
+
+.login-container {
+    margin-top: 0px; 
+    margin-bottom: 40px; 
+    padding: 20px; /* Adjust the padding as needed */
+  }
+
+.link {
+    color: #6495ed;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#login_email::placeholder {
+    color: #d1cece; 
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#login_password::placeholder {
+    color: #d1cece; 
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.h5, h5 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #646364;
+    font-family: "Noto Sans", sans-serif;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 1.25rem;
+}
+
+.fa{
+    color: #495057;
+}
+
+.input-group .input-group-prepend .input-group-text {
+    height: 100%; /* Match the height of the input elements */
+    background-color: #e9ecef;
+  }
+
+  .text-center {
+    text-align: center!important;
+    height: 72px;
+    margin-bottom: 1rem;
+}

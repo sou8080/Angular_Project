@@ -1,0 +1,10 @@
+.alert-danger {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: rgb(192, 5, 5);
+    color: white;
+    font-size: 14px;
+}

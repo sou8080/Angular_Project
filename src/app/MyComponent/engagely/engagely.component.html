@@ -1,0 +1,64 @@
+<div class="container-fluid d-flex justify-content-center align-items-center vh-100 ">
+    <div class="row justify-content-center">
+      <div class="container login-container">
+        <div class="login-form">
+          <div class="card box-shadow">
+            <div class="card-body">
+              <div class="text-center">
+                <img alt="" src="assets/loginlogo.png" width="150px">
+                <h5 class="content-group">Sign In</h5>
+              </div>
+              <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">
+                        <i aria-hidden="true" class="fa fa-user"></i>
+                      </span>
+                    </div>
+                    <input
+                      autocomplete="off" class="form-control ng-dirty ng-valid ng-touched"
+                      formControlName="email"
+                      id="login_email"
+                      placeholder="Email Id"
+                      type="text"
+                    >
+                  </div>
+                  <div class="invalid-feedback" id="emailError1">Email id is required</div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">
+                        <i aria-hidden="true" class="fa fa-lock"></i>
+                      </span>
+                    </div>
+                    <input
+                      autocomplete="off"
+                      class="form-control ng-dirty ng-valid ng-touched"
+                      formControlName="password"
+                      id="login_password"
+                      placeholder="Password"
+                      type="password"
+                    >
+                  </div>
+                  <div class="invalid-feedback" id="passwordError">Password is required</div>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-primary btn-block" type="submit">LOGIN</button>
+                </div>
+              </form>
+              <div class="text-center link">
+                <a class="link">Forgot password?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </div>
+
+  <div  *ngIf="showErrorAlert" class="alert alert-danger">
+    <i class="fa-sharp fa-solid fa-circle-xmark" ></i> 
+    Warning!! <br> Username or Password is invalid..
+  </div>

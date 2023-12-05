@@ -1,0 +1,26 @@
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    position:relative;
+    font-size: 12px;
+    color: #47404f;
+    line-height: 1.5;
+    height: 20px;
+}
+
+.link {
+    color: #6495ed;
+    text-decoration: underline;
+    cursor: pointer;
+    top: 1rem;
+}
